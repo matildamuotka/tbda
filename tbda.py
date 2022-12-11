@@ -1,6 +1,4 @@
-!pip install matplotlib
-!pip install streamlit
-!pip install sqlalchemy
+
 
 # -*- coding: utf-8 -*-
 
