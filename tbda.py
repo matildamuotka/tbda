@@ -1,3 +1,5 @@
+pip3 install SQLAlchemy Flask-SQLAlchemy
+
 from datetime import datetime,date,time,timezone,timedelta
 import streamlit as st
 import pandas as pd
