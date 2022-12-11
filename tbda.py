@@ -1,6 +1,9 @@
+!pip install matplotlib
+!pip install streamlit
+!pip install sqlalchemy
+
 # -*- coding: utf-8 -*-
 
-import pyodbc
 import sqlalchemy as sal
 from sqlalchemy import create_engine #to access a sql database
 
