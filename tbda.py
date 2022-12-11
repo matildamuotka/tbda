@@ -1,20 +1,10 @@
-
-
-# -*- coding: utf-8 -*-
-
-import sqlalchemy as sal
-from sqlalchemy import create_engine #to access a sql database
-
 from datetime import datetime,date,time,timezone,timedelta
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pytz
 from matplotlib import pyplot as plt
-
-
-# pd.read_csv(r"G:\My Drive\Madrid\COURS\TBDA\TBDATEAM\data.csv")
-# uploaded_file = st.file_uploader("Fill out the project plan template and upload your file here. After you upload the file, you can edit your project plan within the app.", type=['csv'])
+from sqlalchemy import create_engine #to access a sql database
 
 
 engine = create_engine('postgresql://lectura:ncorrea#2022@138.100.82.178:5432/2207')
