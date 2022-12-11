@@ -1,10 +1,15 @@
+# -*- coding: utf-8 -*-
+
+import pyodbc
+import sqlalchemy as sal
+from sqlalchemy import create_engine #to access a sql database
+
 from datetime import datetime,date,time,timezone,timedelta
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pytz
 from matplotlib import pyplot as plt
-from sqlalchemy import create_engine #to access a sql database
 
 
 # pd.read_csv(r"G:\My Drive\Madrid\COURS\TBDA\TBDATEAM\data.csv")
